@@ -12,11 +12,15 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ej1": "node ej1.js"
+    "ej1": "node ej1.js",
+    "ej2": "node ej2.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.20"
   }
 }
