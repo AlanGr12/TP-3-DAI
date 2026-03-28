@@ -1,6 +1,5 @@
 import fs from 'fs'
 
-
 buscarProducto("Mouse")
 
 function buscarProducto(nombre)
@@ -16,5 +15,4 @@ function buscarProducto(nombre)
     else{
         console.log(`El producto se ha encontrado, el nombre del producto es ${buscarP.nombre}, su precio es ${buscarP.precio} `)
     }
-
 }
